@@ -1,4 +1,4 @@
-# RVN-Forks-Multi-QT-Tool
+# RVN-and-Forks-Multi-QT-Tool
 
 ### Supported Coins
 	This was a tool in which I felt was useful for the installation and running of multiple QT wallets at once, based around RVN and its forks! Currently the tool supports the following forks:
