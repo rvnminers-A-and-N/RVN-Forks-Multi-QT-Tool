@@ -33,3 +33,7 @@
 	PGN:
 	RTM:
 	AVN:
+	
+	All will be added very soon, thank you!!!
+
+### THANK YOU AND ENJOY!!!
