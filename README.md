@@ -25,7 +25,7 @@
 # The tool currently is just windows batch script based and revolves around two modules; the qt-installer and the qt-run modules! There are plans to release linux/MacOS versions very soon! Also plans for an eventual non-CMD based, GUI experience, all of which will be contained to one window with multiple tabs for each coin; at least this is the first vision!
 
 ### Feel free to reach out for support at our discord server! 
-	Insert_Link_Here
+	https://discord.gg/BGVNaKfkBP
 
 ## Donation addresses:
 	RVN:
