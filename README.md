@@ -22,7 +22,7 @@
 	Change the \Desktop\Wallets line to whatever you like, however... 
 	you MUST update this directory across all calls to it in both batch files when doing this!
 
-# The tool currently is just windows batch script based and revolves around two modules; the qt-installer and the qt-run modules! There are plans to release linux/MacOS/RPi versions very soon! Also plans for an eventual non-CMD based, GUI experience, all of which will be contained to one window with multiple tabs for each coin; at least this is the first vision!
+# The tool currently is just windows batch script based and revolves around two modules; the qt-installer and the qt-run modules! There are plans to release Linux/MacOS/RPi versions very soon! Also plans for an eventual non-CMD based, GUI experience, all of which will be contained to one window with multiple tabs for each coin; at least this is the first vision!
 
 ### Feel free to reach out for support at our discord server! 
 	https://discord.gg/BGVNaKfkBP
