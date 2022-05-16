@@ -28,6 +28,8 @@
 
 ### Edit with appropriate tweaks first! From there, run the qt-installer, then qt-run!!!
 
+### If you have any pre-existing wallets, back them up!!!! Sometimes when a new qt wallet version is downloaded and opened, it can corrupt an older wallet version file and cause havoc; I myself have been in this spot, I was able to fix my mistake thankfully, but avoid it!
+
 ## Feel free to reach out for support at our discord server! 
 	https://discord.gg/BGVNaKfkBP
 
