@@ -8,6 +8,8 @@
 	Raptoreum (RTM)
 	Avian (AVN)
 
+### Run the qt-installer first, then the qt-run!!!
+
 ### User Specific Necessesary Tweaks!!!
 	Find each your_user_here line of each directory pathway and specify your appropriate user based on your system specification!
 	
