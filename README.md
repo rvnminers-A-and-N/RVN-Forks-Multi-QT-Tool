@@ -11,8 +11,15 @@
 		Pigeoncoin (PGN)
 		Raptoreum (RTM)
 		Avian (AVN)
+	
+	Currently adding:
+		Ravencoin Dark (XRD)
+	
+	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
+	Reach out if support for Bitcoin (BTC), Etherum (ETH), Litecoin (LTC), Ethereum Classic (ETC), Dash (DASH), Doge (DOGE), or others are desired! 
+	We have considered producing a mass scale version as we upgrade and would be happy to add any desired coins as requested!
 
-## User Specific Necessesary Tweaks!!!
+## User Specific Necessesary Tweaks!!! (THIS WILL BE AUTOMATED SOON BY USER INPUTS IN THE TERMINAL AS PROMPTED)
 	Find each your_user_here line of each directory pathway and specify your appropriate user based on your system specification!
 	
 	The Wallet directory can also be modified in the following lines:
@@ -29,6 +36,14 @@
 ### Edit with appropriate tweaks first! From there, run the qt-installer, then qt-run!!!
 
 ### If you have any pre-existing wallets, back them up!!!! Sometimes when a new qt wallet version is downloaded and opened, it can corrupt an older wallet version file and cause havoc; I myself have been in this spot, I was able to fix my mistake thankfully, but avoid it!
+
+### Roadmap
+	-Automate user specific tweaks with starting by defining the user and the desired working directory location at the very beginning
+	-Give the .bat files icons (this may have to wait until the multi-qt.exe phase)
+	-Use qt-creator or another qt tool to produce a single window, tab based experience in which a user can switch back and forth between coins;
+	when it starts up, the user will be greeted with a checklist of the different coins and can select the desired ones for opening
+	-Will be a downloadable release package just like on the github of the coins themselves, consisting of an install/uninstall and multi-qt.exe
+	-A main working directory containing the wallets of each folder will be produced, each of which sorted in their own directories 
 
 ## Feel free to reach out for support at our discord server! 
 	https://discord.gg/BGVNaKfkBP
