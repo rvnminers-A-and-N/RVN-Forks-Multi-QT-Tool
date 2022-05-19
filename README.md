@@ -14,6 +14,7 @@
 	
 	Currently adding:
 		Ravencoin Dark (XRD)
+		Foxdcoin (FOXD)
 	
 	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
 	Reach out if support for Bitcoin (BTC), Etherum (ETH), Litecoin (LTC), Ethereum Classic (ETC), Dash (DASH), Doge (DOGE), or others are desired! 
