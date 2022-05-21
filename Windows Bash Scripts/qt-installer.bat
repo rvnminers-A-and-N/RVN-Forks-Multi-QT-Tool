@@ -176,7 +176,7 @@ IF %ERRORLEVEL%==3 GOTO CANCEL
 ECHO MOVING TO DESIRED WALLET DIRECTORY AND FETCHING RAPTOREUMCORE...
 cd %userprofile%\Desktop\%w_n%
 ECHO %cd%
-powershell -Command "Invoke-WebRequest https://github.com/Raptor3um/raptoreum/releases/download/1.3.17.99/raptoreum-win-1.3.17.99-SNAPSHOT.zip -OutFile RTM.zip"
+powershell -Command "Invoke-WebRequest https://github.com/Raptor3um/raptoreum/releases/download/1.2.15.3/raptoreum_1.2.15.3_windows_64.zip -OutFile RTM.zip"
 ECHO PACKAGE INSTALLED!
 ECHO PREPARING TO UNZIP PACKAGE...
 timeout 10
