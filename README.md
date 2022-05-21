@@ -37,12 +37,12 @@
 
 	### Edit with appropriate tweaks first! From there, run the qt-installer, then qt-run!!!
 
-### Download this package by clicking the green code button towards the top of the page, and then click download zip, you can unzip this package using winrar, 7z, or the windows extraction tool, PLEASE CHECK TO BE SURE that the extracted folder is called RVN-and-Forks-Multi-QT-Tool, and is located on the desktop. The extracted folder may contain a duplicate directory with all files in it, just copy this to the desktop and give it the appropriate name. It should contain the windows bash script directory with the three .bat files inside, and this README.md. The idea is the system should be able to find (C:\Users\user userprofile path will vary)\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Bash Scripts so that the three .bat files can be opened and worked.
+### ***Download this package by clicking the green code button towards the top of the page, and then click download zip, you can unzip this package using winrar, 7z, or the windows extraction tool, PLEASE CHECK TO BE SURE that the extracted folder is called RVN-and-Forks-Multi-QT-Tool, and is located on the desktop. The extracted folder may contain a duplicate directory with all files in it, just copy this to the desktop and give it the appropriate name. It should contain the windows bash script directory with the three .bat files inside, and this README.md. Just like the repo structure. The idea is the system should be able to find (C:\Users\user userprofile path will vary)\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Bash Scripts so that the three .bat files can be opened and worked.***
 
 ### If you have any pre-existing wallets, back them up!!!! Sometimes when a new qt wallet version is downloaded and opened, it can corrupt an older wallet version file and cause havoc; I myself have been in this spot, I was able to fix my mistake thankfully, but avoid it!
 
 ### Roadmap
-	-Automate user specific tweaks with starting by defining the user and the desired working directory location at the very beginning
+	-Automate user specific tweaks with starting by defining the user and the desired working directory location at the very beginning (COMPLETE)
 	-Give the .bat files icons (this may have to wait until the multi-qt.exe phase)
 	-Use qt-creator or another qt tool to produce a single window, tab based experience in which a user can switch back and forth between coins;
 	when it starts up, the user will be greeted with a checklist of the different coins and can select the desired ones for opening
