@@ -121,7 +121,7 @@ IF %ERRORLEVEL%==3 GOTO CANCEL
 
 :RTM_YES
 ECHO OPENING RTM-QT...
-cd %userprofile%\Desktop\%w_n%\raptoreum-build
+cd %userprofile%\Desktop\%w_n%\raptoreum_1.2.15.3_windows_64
 START raptoreum-qt.exe
 timeout 10
 GOTO AVN
