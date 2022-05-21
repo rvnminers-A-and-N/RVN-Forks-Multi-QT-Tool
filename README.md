@@ -53,14 +53,15 @@
 	https://discord.gg/BGVNaKfkBP
 
 ## Donation addresses:
-	RVN:
-	RITO:
-	PGN:
-	RTM:
-	AVN:
-	XRD:
-	FOXD:
+
+	RVN: RWTToMSWJ7idZk1poSshhmR1HL4eChNyVm
+	RITO: BMHYEKcoHmPm8uecf3B7KdGFXEYNWkyRRM
+	PGN: PUS7zorBaYmAnGCbQw1sUKTJ3jn3qidiie
+	RTM: RKkfkHhRLYjrwUbG8RAsT692JPGJKZx2Ds
+	AVN: RW7oUvB2695BYhAifmb5PoKGHtWc8ZURG7
+	XRD: RKEyZL6T7K8AC5No8kj9CgL3xjJAYA5h9E
+	FOXD: FM6PjbFMXV21BtGZbxFhdpJjUjK94pcEsR
 	
-	All will be added very soon, thank you!!!
+	Thank you greatly for considering donating, these donations help fund my journey of finishing up graduate school!
 
 # THANK YOU AND ENJOY!!!
