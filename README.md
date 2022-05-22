@@ -15,9 +15,9 @@
 		Foxdcoin (FOXD) : v1.0.1 https://github.com/foxdproject/foxdcoin/releases/tag/v.1.0.1
 	
 	Adding support for:
-		Hivecoin (HVQ) : v4.4.4.2 https://github.com/HiveProject2021/Hivecoin/releases/download/4.4.4.2/hive-4.4.4-win64-setup.exe
+		Hivecoin (HVQ) : v4.4.4.2 https://github.com/HiveProject2021/Hivecoin/releases/tag/4.4.4.2
 		HVQ-QT,D, and CLI : v4.4.4.2 https://github.com/rvnminers-A-and-N/RVN-and-Forks-Multi-QT-Tool/releases/download/v1.0.1/hvq-4.4.4.2.zip
-		Satoex (SATO) : v1.1.5 https://github.com/Satoex/Sato/releases/download/v1.1.5/windows-64bit.zip
+		Satoex (SATO) : v1.1.5 https://github.com/Satoex/Sato/releases/tag/v1.1.5
 	
 	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
 	Reach out if support for Bitcoin (BTC), Etherum (ETH), Litecoin (LTC), Ethereum Classic (ETC), Dash (DASH), Doge (DOGE), or others are desired! 
@@ -68,6 +68,8 @@
 	AVN: RW7oUvB2695BYhAifmb5PoKGHtWc8ZURG7
 	XRD: RKEyZL6T7K8AC5No8kj9CgL3xjJAYA5h9E
 	FOXD: FM6PjbFMXV21BtGZbxFhdpJjUjK94pcEsR
+	HVQ:
+	SATO: 
 	
 	Thank you greatly for considering donating, these donations help fund my journey of finishing up graduate school!
 
