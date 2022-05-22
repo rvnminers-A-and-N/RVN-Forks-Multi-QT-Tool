@@ -6,13 +6,13 @@
 ## Supported Coins
 	This was a tool in which I felt was useful for the installation and running of multiple QT wallets at once
 	It is based around RVN and its forks! Currently the tool supports the following forks:
-		Ravencoin (RVN)
-		Ritocoin (RITO)
-		Pigeoncoin (PGN)
-		Raptoreum (RTM)
-		Avian (AVN)
-		Ravencoin Dark (XRD)
-		Foxdcoin (FOXD)
+		Ravencoin (RVN) : v4.3.2.1 https://github.com/RavenProject/Ravencoin/releases/tag/v4.3.2.1
+		Ritocoin (RITO) : v2.4.2.0 https://github.com/RitoProject/Ritocoin/releases/tag/2.4.2.0
+		Pigeoncoin (PGN) : v1.18.2.0 https://github.com/Pigeoncoin/pigeoncoin/releases/tag/1.18.2.0
+		Raptoreum (RTM) : v1.2.15.3 https://github.com/Raptor3um/raptoreum/releases/tag/1.2.15.3
+		Avian (AVN) : v3.1.1 https://github.com/AvianNetwork/Avian/releases/tag/v3.1.1
+		Ravencoin Dark (XRD) : v0.3.2 https://github.com/raven-dark/raven-dark/releases/tag/0.3.2
+		Foxdcoin (FOXD) : v1.0.1 https://github.com/foxdproject/foxdcoin/releases/tag/v.1.0.1
 	
 	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
 	Reach out if support for Bitcoin (BTC), Etherum (ETH), Litecoin (LTC), Ethereum Classic (ETC), Dash (DASH), Doge (DOGE), or others are desired! 
