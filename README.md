@@ -14,7 +14,9 @@
 		Ravencoin Dark (XRD) : v0.3.2 https://github.com/raven-dark/raven-dark/releases/tag/0.3.2
 		Foxdcoin (FOXD) : v1.0.1 https://github.com/foxdproject/foxdcoin/releases/tag/v.1.0.1
 	
-	Adding support for Hivecoin (HVQ) : v4.4.4.2 https://github.com/HiveProject2021/Hivecoin/releases/download/4.4.4.2/hive-4.4.4-win64-setup.exe
+	Adding support for:
+		Hivecoin (HVQ) : v4.4.4.2 https://github.com/HiveProject2021/Hivecoin/releases/download/4.4.4.2/hive-4.4.4-win64-setup.exe
+		Satoex (SATO) : v1.1.5 https://github.com/Satoex/Sato/releases/download/v1.1.5/windows-64bit.zip
 	
 	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
 	Reach out if support for Bitcoin (BTC), Etherum (ETH), Litecoin (LTC), Ethereum Classic (ETC), Dash (DASH), Doge (DOGE), or others are desired! 
