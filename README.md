@@ -17,6 +17,9 @@
 		(HVQ-QT,D, and CLI : v4.4.4.2 https://github.com/rvnminers-A-and-N/RVN-and-Forks-Multi-QT-Tool/releases/download/v1.0.1/hvq-4.4.4.2.zip)
 		Satoex (SATO) : v1.1.5 https://github.com/Satoex/Sato/releases/tag/v1.1.5
 	
+	Adding support for:	
+		Arielcoin (ARL) : v0.18.1 https://github.com/ArielCoinOrg/arielcoin/releases/tag/0.18.1
+	
 	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
 	Reach out if support for Bitcoin (BTC), Etherum (ETH), Litecoin (LTC), Ethereum Classic (ETC), Dash (DASH), Doge (DOGE), or others are desired! 
 	We have considered producing a mass scale version as we upgrade and would be happy to add any desired coins as requested!
@@ -40,9 +43,9 @@
 
 	### Edit with appropriate tweaks first! From there, run the qt-installer, then qt-run!!!
 
-### ***Download this package by clicking the green code button towards the top of the page, and then click download zip, you can unzip this package using winrar, 7z, or the windows extraction tool, PLEASE CHECK TO BE SURE that the extracted folder is called RVN-and-Forks-Multi-QT-Tool, and is located on the desktop. The extracted folder may contain a duplicate directory with all files in it, just copy this to the desktop and give it the appropriate name. It should contain the windows bash script directory with the three .bat files inside, and this README.md. Just like the repo structure. The idea is the system should be able to find (C:\Users\user userprofile path will vary)\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Bash Scripts so that the three .bat files can be opened and worked.
+### ***Download this package by clicking the green code button towards the top of the page, and then click download zip, you can unzip this package using winrar, 7z, or the windows extraction tool, PLEASE CHECK TO BE SURE that the extracted folder is called RVN-and-Forks-Multi-QT-Tool, and is located on the desktop. The extracted folder may contain a duplicate directory with all files in it, just copy this to the desktop and give it the appropriate name. It should contain the windows bash script directory with the three .bat files inside, and this README.md. Just like the repo structure. The idea is the system should be able to find (C:\Users\user userprofile path will vary)\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Batch Scripts so that the three .bat files can be opened and worked.
 
-### ***You can also go to the most recent release, download the .zip file and use windows to unzip initially, or grab the three .bat files and the README.md, put them in a directory on the desktop called RVN-and-Forks-Multi-QT-Tool, make a folder in there called Windows Bash Scripts, place the three .bat files in there, and leave the README.md in the RVN-and-Forks-Multi-QT-Tool directory on your desktop, just outside of the Windows Bash Scripts directory!***
+### ***You can also go to the most recent release, download the .zip file and use windows to unzip initially, or grab the three .bat files and the README.md, put them in a directory on the desktop called RVN-and-Forks-Multi-QT-Tool, make a folder in there called Windows Batch Scripts, place the three .bat files in there, and leave the README.md in the RVN-and-Forks-Multi-QT-Tool directory on your desktop, just outside of the Windows Batch Scripts directory!***
 
 ### If you have any pre-existing wallets, back them up!!!! Sometimes when a new qt wallet version is downloaded and opened, it can corrupt an older wallet version file and cause havoc; I myself have been in this spot, I was able to fix my mistake thankfully, but avoid it!
 
@@ -68,6 +71,7 @@
 	FOXD: FM6PjbFMXV21BtGZbxFhdpJjUjK94pcEsR
 	HVQ: H7Srm9Q9JLutFoWqZ9dMA8eJyQryv6dUnL
 	SATO: SVvUYdHEc1niWKTBwkfNPeSuK2bTGEK8Jz
+	ARL: 
 	
 	Thank you greatly for considering donating, these donations help fund my journey of finishing up graduate school!
 
