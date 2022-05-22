@@ -295,6 +295,10 @@ timeout 10
 ECHO LOCATING 7-ZIP...
 "%homedrive%\Program Files\7-Zip\7z.exe" x HVQ.zip
 ECHO PACKAGE UNZIPPPED AND HIVECORE INSTALLED!
+mkdir hvq-4.4.4.2
+move hive-qt.exe %userprofile%\Desktop\%w_n%\hvq-4.4.4.2
+move hive-cli.exe %userprofile%\Desktop\%w_n%\hvq-4.4.4.2 
+move hived.exe %userprofile%\Desktop\%w_n%\hvq-4.4.4.2
 timeout 10
 GOTO SATO
 
@@ -303,7 +307,7 @@ ECHO HIVECORE NOT INSTALLED!
 GOTO SATO
 
 :SATO
-CHOICE /C YNC /N /M "INSTALL HVQ WALLET? Y/N OR C TO CANCEL"%1
+CHOICE /C YNC /N /M "INSTALL SATO WALLET? Y/N OR C TO CANCEL"%1
 IF %ERRORLEVEL%==1 GOTO SATO_YES
 IF %ERRORLEVEL%==2 GOTO SATO_NO
 IF %ERRORLEVEL%==3 GOTO CANCEL
@@ -318,6 +322,7 @@ ECHO PREPARING TO UNZIP PACKAGE...
 timeout 10
 ECHO LOCATING 7-ZIP...
 "%homedrive%\Program Files\7-Zip\7z.exe" x SATO.zip
+rename windows-64bit sato-1.1.5
 ECHO PACKAGE UNZIPPPED AND SATOCORE INSTALLED!
 timeout 10
 GOTO RUN
