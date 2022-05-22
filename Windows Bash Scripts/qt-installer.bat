@@ -272,10 +272,58 @@ move foxdcoin-qt.exe %userprofile%\Desktop\%w_n%\foxd-1.0.1
 move foxdcoin-cli.exe %userprofile%\Desktop\%w_n%\foxd-1.0.1 
 move foxdcoind.exe %userprofile%\Desktop\%w_n%\foxd-1.0.1
 ECHO PACKAGE UNZIPPPED AND FOXDCORE INSTALLED!
-GOTO RUN
+GOTO HVQ
 
 :FOXD_NO
 ECHO FOXDCORE NOT INSTALLED!
+GOTO HVQ
+
+:HVQ
+CHOICE /C YNC /N /M "INSTALL HVQ WALLET? Y/N OR C TO CANCEL"%1
+IF %ERRORLEVEL%==1 GOTO HVQ_YES
+IF %ERRORLEVEL%==2 GOTO HVQ_NO
+IF %ERRORLEVEL%==3 GOTO CANCEL
+
+:HVQ_YES
+ECHO MOVING TO DESIRED WALLET DIRECTORY AND FETCHING HIVECORE...
+cd %userprofile%\Desktop\%w_n%
+ECHO %cd%
+powershell -Command "Invoke-WebRequest https://github.com/rvnminers-A-and-N/RVN-and-Forks-Multi-QT-Tool/releases/download/v1.0.1/hvq-4.4.4.2.zip -OutFile HVQ.zip"
+ECHO PACKAGE INSTALLED!
+ECHO PREPARING TO UNZIP PACKAGE...
+timeout 10
+ECHO LOCATING 7-ZIP...
+"%homedrive%\Program Files\7-Zip\7z.exe" x HVQ.zip
+ECHO PACKAGE UNZIPPPED AND HIVECORE INSTALLED!
+timeout 10
+GOTO SATO
+
+:HVQ_NO
+ECHO HIVECORE NOT INSTALLED!
+GOTO SATO
+
+:SATO
+CHOICE /C YNC /N /M "INSTALL HVQ WALLET? Y/N OR C TO CANCEL"%1
+IF %ERRORLEVEL%==1 GOTO SATO_YES
+IF %ERRORLEVEL%==2 GOTO SATO_NO
+IF %ERRORLEVEL%==3 GOTO CANCEL
+
+:SATO_YES
+ECHO MOVING TO DESIRED WALLET DIRECTORY AND FETCHING SATOCORE...
+cd %userprofile%\Desktop\%w_n%
+ECHO %cd%
+powershell -Command "Invoke-WebRequest https://github.com/Satoex/Sato/releases/download/v1.1.5/windows-64bit.zip -OutFile SATO.zip"
+ECHO PACKAGE INSTALLED!
+ECHO PREPARING TO UNZIP PACKAGE...
+timeout 10
+ECHO LOCATING 7-ZIP...
+"%homedrive%\Program Files\7-Zip\7z.exe" x SATO.zip
+ECHO PACKAGE UNZIPPPED AND SATOCORE INSTALLED!
+timeout 10
+GOTO RUN
+
+:SATO_NO
+ECHO SATOCORE NOT INSTALLED!
 GOTO RUN
 
 :RUN
