@@ -198,7 +198,7 @@ START hive-qt.exe
 timeout 10
 GOTO SATO
 
-:FOXD_NO
+:HVQ_NO
 ECHO HIVE-QT NOT OPENED...
 timeout 10
 GOTO SATO
