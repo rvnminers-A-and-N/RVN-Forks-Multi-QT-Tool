@@ -325,10 +325,44 @@ ECHO LOCATING 7-ZIP...
 rename windows-64bit sato-1.1.5
 ECHO PACKAGE UNZIPPPED AND SATOCORE INSTALLED!
 timeout 10
-GOTO RUN
+GOTO ARL
 
 :SATO_NO
 ECHO SATOCORE NOT INSTALLED!
+GOTO ARL
+
+:ARL
+CHOICE /C YNC /N /M "INSTALL ARL WALLET? Y/N OR C TO CANCEL"%1
+IF %ERRORLEVEL%==1 GOTO ARL_YES
+IF %ERRORLEVEL%==2 GOTO ARL_NO
+IF %ERRORLEVEL%==3 GOTO CANCEL
+
+:ARL_YES
+ECHO MOVING TO DESIRED WALLET DIRECTORY AND FETCHING ARIELCORE...
+cd %userprofile%\Desktop\%w_n%
+ECHO %cd%
+powershell -Command "Invoke-WebRequest https://github.com/ArielCoinOrg/arielcoin/releases/download/0.18.1/arielcoin-windows.zip -OutFile ARL.zip"
+ECHO PACKAGE INSTALLED!
+ECHO PREPARING TO UNZIP PACKAGE...
+timeout 10
+ECHO LOCATING 7-ZIP...
+"%homedrive%\Program Files\7-Zip\7z.exe" x ARL.zip
+rename win64 arl-0.18.1
+cd %userprofile%\Desktop\%w_n%\arl-0.18.1\bin
+move arielcoin-cli.exe %userprofile%\Desktop\%w_n%\arl-0.18.1
+move arielcoind.exe %userprofile%\Desktop\%w_n%\arl-0.18.1 
+move arielcoin-qt.exe %userprofile%\Desktop\%w_n%\arl-0.18.1
+move arielcoin-tx.exe %userprofile%\Desktop\%w_n%\arl-0.18.1
+move arielcoin-wallet.exe %userprofile%\Desktop\%w_n%\arl-0.18.1
+cd %userprofile%\Desktop\%w_n%\arl-0.18.1
+echo %cd%
+rmdir /q bin
+ECHO PACKAGE UNZIPPPED AND ARIELCORE INSTALLED!
+timeout 10
+GOTO RUN
+
+:ARL_NO
+ECHO ARIELCORE NOT INSTALLED!
 GOTO RUN
 
 :RUN
@@ -340,7 +374,7 @@ IF %ERRORLEVEL%==3 GOTO CANCEL
 
 :QO_YES
 ECHO OPENING QT-LAUNCHER...
-cd %userprofile%\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Bash Scripts
+cd %userprofile%\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Batch Scripts
 START qt-launcher.bat
 ECHO QT-LAUNCHER STARTED! 
 GOTO END
