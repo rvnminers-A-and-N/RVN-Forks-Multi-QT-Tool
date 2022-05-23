@@ -214,10 +214,28 @@ ECHO OPENING SATO-QT...
 cd %userprofile%\Desktop\%w_n%\sato-1.1.5
 START sato-qt.exe
 timeout 10
-GOTO RUN
+GOTO ARL
 
 :SATO_NO
 ECHO SATO-QT NOT OPENED...
+timeout 10
+GOTO ARL
+
+:ARL
+CHOICE /C YNC /N /M "OPEN ARL QT-WALLET? Y/N OR C TO CANCEL"%1
+IF %ERRORLEVEL%==1 GOTO ARL_YES
+IF %ERRORLEVEL%==2 GOTO ARL_NO
+IF %ERRORLEVEL%==3 GOTO CANCEL
+
+:ARL_YES
+ECHO OPENING ARIELCOIN-QT... 
+cd %userprofile%\Desktop\%w_n%\arl-0.18.1
+START arielcoin-qt.exe
+timeout 10
+GOTO RUN
+
+:ARL_NO
+ECHO ARIELCOIN-QT NOT OPENED...
 timeout 10
 GOTO RUN
 
@@ -234,7 +252,7 @@ IF %ERRORLEVEL%==4 GOTO END
 
 :QC_YES
 ECHO OPENING QT-CLOSER...
-cd %userprofile%\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Bash Scripts
+cd %userprofile%\Desktop\RVN-and-Forks-Multi-QT-Tool\Windows Batch Scripts
 echo %cd%
 START qt-closer.bat
 ECHO QT-CLOSER STARTED!
