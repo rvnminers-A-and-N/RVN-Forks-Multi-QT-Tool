@@ -16,8 +16,6 @@
 		Hivecoin (HVQ) : v4.4.4.2 https://github.com/HiveProject2021/Hivecoin/releases/tag/4.4.4.2
 		(HVQ-QT,D, and CLI : v4.4.4.2 https://github.com/rvnminers-A-and-N/RVN-and-Forks-Multi-QT-Tool/releases/download/v1.0.1/hvq-4.4.4.2.zip)
 		Satoex (SATO) : v1.1.5 https://github.com/Satoex/Sato/releases/tag/v1.1.5
-	
-	Adding support for:	
 		Arielcoin (ARL) : v0.18.1 https://github.com/ArielCoinOrg/arielcoin/releases/tag/0.18.1
 	
 	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
