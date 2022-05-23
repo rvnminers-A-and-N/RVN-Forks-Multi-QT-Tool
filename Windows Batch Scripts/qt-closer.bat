@@ -216,10 +216,28 @@ ECHO CLOSING SATO-QT...
 cd %userprofile%\Desktop\%w_n%\sato-1.1.5
 taskkill /IM sato-qt.exe /T
 timeout 10
-GOTO END
+GOTO ARL
 
 :SATO_NO
 ECHO SATO-QT NOT CLOSED...
+timeout 10
+GOTO ARL
+
+:ARL
+CHOICE /C YNC /N /M "CLOSE ARL QT-WALLET? Y/N OR C TO CANCEL"%1
+IF %ERRORLEVEL%==1 GOTO ARL_YES
+IF %ERRORLEVEL%==2 GOTO ARL_NO
+IF %ERRORLEVEL%==3 GOTO CANCEL
+
+:ARL_YES
+ECHO CLOSING ARIELCOIN-QT... 
+cd %userprofile%\Desktop\%w_n%\arl-0.18.1
+taskkill /IM arielcoin-qt.exe /T
+timeout 10
+GOTO END
+
+:ARL_NO
+ECHO ARIELCOIN-QT NOT CLOSED...
 timeout 10
 GOTO END
 
