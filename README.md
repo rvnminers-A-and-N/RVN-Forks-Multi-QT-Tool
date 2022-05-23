@@ -69,7 +69,7 @@
 	FOXD: FM6PjbFMXV21BtGZbxFhdpJjUjK94pcEsR
 	HVQ: H7Srm9Q9JLutFoWqZ9dMA8eJyQryv6dUnL
 	SATO: SVvUYdHEc1niWKTBwkfNPeSuK2bTGEK8Jz
-	ARL: 
+	ARL: AdedhEmCFy4vswyfs4ykJTWzfc4SDQoRAW
 	
 	Thank you greatly for considering donating, these donations help fund my journey of finishing up graduate school!
 
