@@ -1,6 +1,6 @@
 # RVN-and-Forks-Multi-QT-Tool
 
-### **I AM CURRENTLY WORKING TO FIX THE SATO BOOTSTRAP ISSUE AND ALONG WITH THIS, THE CODE WILL NOW CALL FOR THE SATO 1.1.6 WALLET
+### **I AM CURRENTLY WORKING TO FIX/AUTOMATE THE SATO BOOTSTRAP ISSUE AND ALONG WITH THIS, THE CODE WILL NOW CALL FOR THE SATO 1.1.6 WALLET
 
 ## Project Statement
 ### The tool currently is just windows batch script based and revolves around three modules; the qt-installer and the qt-launcher and qt-closer modules! There are plans to release Linux/MacOS/RPi versions very soon! Also plans for an eventual non-CMD based, GUI experience, all of which will be contained to one window with multiple tabs for each coin; at least this is the first vision!
@@ -18,6 +18,7 @@
 		Hivecoin (HVQ) : v4.4.4.2 https://github.com/HiveProject2021/Hivecoin/releases/tag/4.4.4.2
 		(HVQ-QT,D, and CLI : v4.4.4.2 https://github.com/rvnminers-A-and-N/RVN-and-Forks-Multi-QT-Tool/releases/download/v1.0.1/hvq-4.4.4.2.zip)
 		Satoex (SATO) : v1.1.6 https://github.com/satonetwork/sato/releases/tag/v1.1.6
+		(SATO Bootstrap 5/23/2022 : https://github.com/rvnminers-A-and-N/RVN-and-Forks-Multi-QT-Tool/releases/download/v1.0.3.1/SATO-Bootstrap-5-23-2022.zip)
 		Arielcoin (ARL) : v0.18.1 https://github.com/ArielCoinOrg/arielcoin/releases/tag/0.18.1
 	
 	Please reach out and ask us to add more forks as they come, we are more than willing to add these! 
