@@ -1,6 +1,6 @@
 # RVN-and-Forks-Multi-QT-Tool
 
-### **I AM CURRENTLY WORKING TO FIX/AUTOMATE THE SATO BOOTSTRAP ISSUE AND ALONG WITH THIS, THE CODE WILL NOW CALL FOR THE SATO 1.1.6 WALLET
+### **I AM CURRENTLY WORKING TO FIX/AUTOMATE THE SATO BOOTSTRAP ISSUE AND ALONG WITH THIS, THE CODE WILL NOW CALL FOR THE SATO 1.1.6 WALLET, ALSO ADDING NEOXA SUPPORT
 
 ## Project Statement
 ### The tool currently is just windows batch script based and revolves around three modules; the qt-installer and the qt-launcher and qt-closer modules! There are plans to release Linux/MacOS/RPi versions very soon! Also plans for an eventual non-CMD based, GUI experience, all of which will be contained to one window with multiple tabs for each coin; at least this is the first vision!
